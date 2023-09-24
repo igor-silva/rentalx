@@ -10,6 +10,9 @@ class ListCategoriesController{
     handle(req: Request, res: Response): Response{
         const all = this.listCategoryUseCase.execute();// = CategoryRepository
 
+        console.log(all);
+        
+
         return res.json(all)
     }
 }
