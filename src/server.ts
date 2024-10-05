@@ -3,6 +3,8 @@ import { router } from './routes';
 import fs from "fs";
 import path  from "path";
 import YAML from "yaml";
+import "reflect-metadata";
+import "./database";
 import swaggerUi from "swagger-ui-express";
 import swaggerFileJson from "./swagger/swagger.json";
 
